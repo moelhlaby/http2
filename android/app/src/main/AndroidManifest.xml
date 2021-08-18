@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.http2">
+    package="com.ititask.http2">
    <application
         android:label="http2"
         android:icon="@mipmap/ic_launcher">
@@ -36,6 +36,6 @@
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data
             android:name="flutterEmbedding"
-            android:value="2" />
+            android:value="AIzaSyCAteIkUtSZrR8E-8l5uMtLSMGmNK-Xl04" />
     </application>
 </manifest>

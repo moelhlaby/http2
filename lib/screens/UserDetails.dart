@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:http2/screens/Card.dart';
 import 'package:http2/models/User.dart';
+import 'package:http2/screens/TheMap.dart';
 import 'package:http2/utils.dart';
-import 'package:url_launcher/url_launcher.dart';
 class UserDetails extends StatefulWidget {
   User user ;
   UserDetails(this.user);
@@ -41,6 +41,10 @@ class _UserDetailsState extends State<UserDetails> {
               launchURL("${widget.user.website}");
             },
             child:Text("website:${widget.user.website}") ,
+          ),
+          MaterialButton(onPressed: pushPage(context,
+              MapSample()),
+          child: Text('Location'),
           ),
         ],
       ),
